@@ -14,5 +14,3 @@
 
 ![Soux Vide](images/Sous-Vide.gif "Soux Vide")
 
-
-...
