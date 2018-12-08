@@ -12,5 +12,5 @@
 
 # We Got You Covered for Date Night
 
-![Soux Vide](images/Sous-Vide.gif "Soux Vide")
+![Soux Vide](assets/images/Sous-Vide.gif "Soux Vide")
 
