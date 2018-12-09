@@ -8,7 +8,7 @@
 
 - If you answered yes to any of the above questions, then we have just the APP for you!
 
-## Soux Vide is a restaurant review site that strikes the perfect balance. The App is built on top of Firebase and utilizes the Yelp and Google APIs to provide a more accurate, efficient and user friendly restaurant ratin.
+### Soux Vide is a restaurant review site that strikes the perfect balance. The App is built on top of Firebase and utilizes the Yelp and Google APIs to provide a more accurate, efficient and user friendly restaurant rating.
 
 # We Got You Covered for Date Night
 
