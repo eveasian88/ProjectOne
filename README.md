@@ -9,12 +9,12 @@
 - If you answered yes to any of the above questions, then we have just the APP for you!
 
 
-# A Restaurant Review Site that Strikes the Perfect Balance 
+## A Restaurant Review Site that Strikes the Perfect Balance 
 
-- The App is built on top of Firebase and utilizes the Yelp and Google APIs to provide a more accurate, efficient and user friendly restaurant rating.
+- App is built on top of Firebase and utilizes the Yelp and Google APIs to provide a more accurate, efficient and user friendly restaurant rating.
 
 
-# We Got You Covered for Date Night
+## We Got You Covered for Date Night
 
 ![Soux Vide](assets/images/Sous-Vide.gif "Soux Vide")
 
