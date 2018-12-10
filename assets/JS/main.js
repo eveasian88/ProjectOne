@@ -1,22 +1,22 @@
 //Pulling our API keys in from config file -jw
 
-var googleKey = config.googleKey;
-var yelpKey = config.yelpKey;
-var yelpClient = config.yelpClientID;
-var dataKey = config.fireKey;
-var postKey = config.postman;
+// var googleKey = config.googleKey;
+// var yelpKey = config.yelpKey;
+// var yelpClient = yelpConfig.clientID;
+// var dataKey = config.fireKey;
+// var postKey = config.postman;
 
-// Initialize Firebase
-  var fireDB = {
-    apiKey: dataKey,
-    authDomain: "a-super-sweet-project.firebaseapp.com",
-    databaseURL: "https://a-super-sweet-project.firebaseio.com",
-    projectId: "a-super-sweet-project",
-    storageBucket: "a-super-sweet-project.appspot.com",
-    messagingSenderId: "825679001195"
-  };
+// // Initialize Firebase
+//   var fireDB = {
+//     apiKey: dataKey,
+//     authDomain: "a-super-sweet-project.firebaseapp.com",
+//     databaseURL: "https://a-super-sweet-project.firebaseio.com",
+//     projectId: "a-super-sweet-project",
+//     storageBucket: "a-super-sweet-project.appspot.com",
+//     messagingSenderId: "825679001195"
+//   };
 
-firebase.initializeApp(fireDB);
+firebase.initializeApp(fireDBConfig);
 var database = firebase.database();
 
 // Vars for holding the values pulled from user input -jw
@@ -84,7 +84,7 @@ $("#give-review").on("click", function (event) {
     "headers": {
       "cache-control": "no-cache",
       "Postman-Token": postKey,
-      "Authorization": "Bearer " + yelpKey
+      "Authorization": "Bearer " + yelpConfig.apiKey
     }
   };
 
@@ -155,7 +155,7 @@ function googleApiCall() {
     var input = snapshot.val().name;
     var placeInput = "input=" + encodeURI(input);
     var location = "locationbias=point:" +lat+","+lon;
-    var queryURL = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/findplacefromtext/json?" + placeInput + "&inputtype=textquery&fields=photos,formatted_address,name,opening_hours,rating&"+location+"&key="+googleKey
+    var queryURL = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/findplacefromtext/json?" + placeInput + "&inputtype=textquery&fields=photos,formatted_address,name,opening_hours,rating&"+location+"&key="+googleConfig
     console.log("queryurl: " + queryURL);
   
     $.ajax({
