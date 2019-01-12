@@ -18,3 +18,7 @@
 
 ![Soux Vide](assets/images/Sous-Vide.gif "Soux Vide")
 
+
+## License & Copyright
+
+&copy; Brett Byars, Ajay Paladugu, Susye Weng-Reeder, James Wilcox; Soux Vide 2018. UC Berkeley Coding Bootcamp.
