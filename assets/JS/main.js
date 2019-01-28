@@ -1,20 +1,28 @@
-//Pulling our API keys in from config file -jw
 
-// var googleKey = config.googleKey;
-// var yelpKey = config.yelpKey;
-// var yelpClient = yelpConfig.clientID;
-// var dataKey = config.fireKey;
-// var postKey = config.postman;
+/*
+  *** DEPRECATED ***
 
-// // Initialize Firebase
-//   var fireDB = {
-//     apiKey: dataKey,
-//     authDomain: "a-super-sweet-project.firebaseapp.com",
-//     databaseURL: "https://a-super-sweet-project.firebaseio.com",
-//     projectId: "a-super-sweet-project",
-//     storageBucket: "a-super-sweet-project.appspot.com",
-//     messagingSenderId: "825679001195"
-//   };
+// Pulling our API keys in from config file -jw
+
+var googleKey = config.googleKey;
+var yelpKey = config.yelpKey;
+var yelpClient = yelpConfig.clientID;
+var dataKey = config.fireKey;
+var postKey = config.postman;
+
+// Initialize Firebase
+var fireDB = {
+  apiKey: dataKey,
+  authDomain: "a-super-sweet-project.firebaseapp.com",
+  databaseURL: "https://a-super-sweet-project.firebaseio.com",
+  projectId: "a-super-sweet-project",
+  storageBucket: "a-super-sweet-project.appspot.com",
+  messagingSenderId: "825679001195"
+};
+
+require("dotenv").config();
+
+*/
 
 firebase.initializeApp(fireDBConfig);
 var database = firebase.database();

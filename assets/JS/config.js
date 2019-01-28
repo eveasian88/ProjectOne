@@ -16,3 +16,10 @@ var yelpConfig = {
 
 var googleConfig = "AIzaSyAVSJQUPSSYWqlvbv078uFZ8YzNxA8mxs4"
 
+console.log('this is loaded');
+
+// exports.fireDBConfig = {
+//   id: process.env.FIREDBCONFIG_ID,
+//   secret: process.env.FIREDBCONFIG_SECRET
+
+// };

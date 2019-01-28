@@ -1,5 +1,6 @@
 # Soux Vide
 
+
 - Have you ever been under pressure to choose a restaurant for date night?
 
 - Have you ever needed to search multiple websites for restaurant reviews?
@@ -21,4 +22,4 @@
 
 ## License & Copyright
 
-&copy; Brett Byars, Ajay Paladugu, Susye Weng-Reeder, James Wilcox; Soux Vide 2018. UC Berkeley Coding Bootcamp.
+&copy; Brett Byars, Ajay Paladugu, Susye Weng-Reeder, James Wilcox; [Soux Vide 2018](https://eveasian88.github.io/Soux-Vide2/). UC Berkeley Coding Bootcamp.
